@@ -1,0 +1,134 @@
+/* Global */
+body {
+    margin: 0px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: bold;
+    height: 125px;
+    width: 100%;
+    padding-top: 50px;
+    background-color: #460080;
+    color: #ebebeb;
+    /*position: fixed;*/
+    top: 0px;
+}
+
+/* Navbar */
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 160px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    float: left;
+}
+
+.dropdownItems {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+}
+
+.dropdownItems a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownItems a:hover {
+    background-color: red;
+}
+
+.dropdown:hover .dropdownItems {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: blue;
+}
+
+.menuBar {
+    background-color: #000000;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    margin-top: 0px;
+}
+
+/* Content */
+#mainSection {
+    /*border: red 2px solid;*/
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 78px;
+    max-width: 1285px;
+    overflow: auto;
+    clear: both;
+}
+
+.cardItems { /* pictures */
+    width: 300px;
+    display: block;
+    height: auto;
+    cursor: pointer;
+    border-radius: 50%;
+    border: thin red solid;
+    float: left;
+    margin: 10px 0px 10px 50px;
+    padding: 0px;
+
+}
+.cards { /* whole cards */
+    width: 400px;
+    height: 520px;
+    border: thin #98A886 solid;
+    background-color: rgba(76, 87, 96, 0.74);
+    border-collapse: collapse;
+    margin: 10px 10px 10px 10px;
+    float: left;
+    padding-right: 5px;
+}
+
+.cardTitle {
+    padding-top: 5px;
+    color: #ebebeb;
+    text-align: center;
+    font-size: 34px;
+}
+
+.cardDescription {
+    text-align: center;
+    color: #ebebeb;
+    margin-left: 10px;
+    margin-right: 10px;
+    /*margin-top: 540px;*/
+    font-size: 24px;
+}
+
+
+/* Footer */
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    padding-top: 15px;
+    background-color: #460080;
+    color: #ebebeb;
+    text-align: center;
+}
