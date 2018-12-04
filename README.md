@@ -1,6 +1,7 @@
 # HTMLTermProject
 
 Overview
+
 -Create a multi-page website to showcase a collection of items.
 -Work in pairs (teams of 2).
 -This project is worth 25% of your final course mark.
