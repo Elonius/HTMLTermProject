@@ -12,8 +12,7 @@ Overview
 Requirements
   1. Choose at least twenty-four items and at least three organizational categories. (For example, recipes might be organized as entrees, appetizers, and desserts.)The items can be anything of interest to you (except recipes).
   2. For each item:  
-    -Create a web page containing detailed information about that item, including at least one full-size image.
-    
+    -Create a web page containing detailed information about that item, including at least one full-size image.\n
     -Create a “card” with a summary of that item’s information, a thumbnail image, and a link to the full details page.
     
   3. Create a web page for each category that contains the cards for the items in that category.
