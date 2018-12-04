@@ -1,9 +1,9 @@
 # HTMLTermProject
 
 Overview
-  -Create a multi-page website to showcase a collection of items.
-  -Work in pairs (teams of 2).
-  -This project is worth 25% of your final course mark.
+-Create a multi-page website to showcase a collection of items.
+-Work in pairs (teams of 2).
+-This project is worth 25% of your final course mark.
 
 Requirements
   1. Choose at least twenty-four items and at least three organizational categories. (For example, recipes might be organized as entrees, appetizers, and desserts.)The items can be anything of interest to you (except recipes).
