@@ -94,26 +94,29 @@ header {
 }
 
 .cardItems { /* pictures */
-    width: 300px;
+    width: 350px;
     display: block;
     height: auto;
     cursor: pointer;
     border-radius: 50%;
-    /*border: thin red solid;*/
     float: left;
-    margin: 10px 0px 10px 50px;
+    margin: 10px 0px 10px 30px;
     padding: 0px;
 
 }
 .cards { /* whole cards */
     width: 400px;
-    height: 540px;
+    height: 565px;
     border: thin #98A886 solid;
     background-color: rgba(76, 87, 96, 0.74);
     border-collapse: collapse;
     margin: 10px 10px 10px 10px;
     float: left;
     padding-right: 5px;
+}
+
+.cards:hover {
+    background-color: rgba(96, 104, 112, 0.74);
 }
 
 .cardTitle {
