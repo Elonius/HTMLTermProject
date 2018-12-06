@@ -3,6 +3,7 @@ html {
     min-height: 100%;
     margin: 0;
 }
+
 body {
     min-height: 100%;
     margin: 0;
@@ -93,7 +94,8 @@ header {
     clear: both;
 }
 
-.cardItems { /* pictures */
+.cardItems {
+    /* pictures */
     width: 350px;
     display: block;
     height: auto;
@@ -104,7 +106,9 @@ header {
     padding: 0px;
 
 }
-.cards { /* whole cards */
+
+.cards {
+    /* whole cards */
     width: 400px;
     height: 565px;
     border: thin #98A886 solid;
@@ -144,5 +148,59 @@ footer {
     padding-top: 15px;
     background-color: #460080;
     color: #ebebeb;
+    text-align: center;
+
+}
+
+.textBox {
+    height: 200px;
+    width: 300px;
+}
+
+.name {
+    padding-top: 10px;
+    color: azure;
+}
+
+.email {
+    padding-top: 10px;
+    color: azure;
+}
+
+.feedback {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: azure;
+    flex-wrap: wrap;
+}
+
+.emailBox {
+    width: 300px;
+}
+
+.cards,
+div {
+    color: azure;
+}
+
+.submit {
+    padding-top: 10px;
+}
+
+.cardsFeed {
+    /* whole cards */
+    width: 400px;
+    height: 565px;
+    border: thin #98A886 solid;
+    background-color: rgba(76, 87, 96, 0.74);
+    border-collapse: collapse;
+    margin-left: 35%;
+    margin-right: auto;
+    float: left;
+    padding-right: 5px;
+    margin-bottom: 22px;
+}
+
+input {
     text-align: center;
 }
