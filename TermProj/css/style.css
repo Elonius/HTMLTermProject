@@ -14,7 +14,6 @@ header {
     text-align: center;
     font-size: 3.5em;
     font-weight: bold;
-    height: 125px;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -100,15 +99,15 @@ tr,
 td {
     border: white solid 1px;
     border-collapse: collapse;
-    font-size: 16px;
     background-color: #8b8b8b80;
     padding: 8px 18px 8px 8px;
     text-align: left;
 }
 
 .table {
-    width: 30%;
+    width: 35%;
     margin-left: 60%;
+    font-size: 1.1em;
 }
 
 .fullSizeImg {
