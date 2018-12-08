@@ -16,10 +16,12 @@ header {
     font-weight: bold;
     height: 125px;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #460080;
     color: #ebebeb;
     top: 0px;
+    font-family: 'Bungee', cursive;
 }
 
 /* Navbar */
@@ -75,12 +77,11 @@ header {
     margin-top: 0px;
 }
 
-.feedback {}
-
 /* Content */
 h1 {
     text-align: center;
     padding: 50px;
+    font-size: 3em;
 }
 
 .content {
@@ -124,10 +125,11 @@ td {
 
 .text {
     width: 50%;
-    text-align: center;
+    text-align: left;
+    line-height: 120%;
     margin: 0 auto;
     font-size: 1.3em;
-    background-color: #8b8b8bb2;
+    background-color: #444343b2;
     border: 1px solid #ebebeb;
     padding: 20px;
     float: left;
@@ -145,7 +147,7 @@ td {
 
 .cardItems {
     /* pictures */
-    width: 345px;
+    width: 343px;
     display: block;
     height: auto;
     cursor: pointer;
@@ -166,6 +168,22 @@ td {
     margin: 10px 10px 10px 10px;
     float: left;
     padding-right: 5px;
+}
+
+.cardsFeed {
+    /* Feedback card */
+    width: 33%;
+    height: auto;
+    padding: 10px;
+    /*text-align: left;*/
+    color: #ebebeb;
+    font-size: 1.3em;
+    border: thin #98A886 solid;
+    background-color: rgba(76, 87, 96, 0.74);
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 30px;
 }
 
 .cards:hover {
