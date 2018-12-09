@@ -36,7 +36,7 @@ header {
 
 .dropdown {
     position: relative;
-    display: inline-block;
+    /*display: inline-block;*/
     float: left;
 }
 
@@ -79,8 +79,10 @@ header {
 /* Content */
 h1 {
     text-align: center;
-    padding: 50px;
+    padding: 30px;
+    color: #ebebeb;
     font-size: 3em;
+    font-family: 'Bungee', cursive;
 }
 
 .content {
@@ -127,11 +129,21 @@ td {
     text-align: left;
     line-height: 120%;
     margin: 0 auto;
-    font-size: 1.3em;
+    font-size: 20px;
     background-color: #444343b2;
     border: 1px solid #ebebeb;
     padding: 20px;
     float: left;
+}
+
+li {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 15px 0px 5px 0px;
+}
+
+.links {
+    color: #ebebeb
 }
 
 #mainSection {
@@ -160,7 +172,7 @@ td {
 .cards {
     /* whole cards */
     width: 400px;
-    height: 565px;
+    height: 580px;
     border: thin #98A886 solid;
     background-color: rgba(76, 87, 96, 0.74);
     border-collapse: collapse;
