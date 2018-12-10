@@ -114,7 +114,7 @@ td {
 
 .fullSizeImg {
     margin-top: 50px;
-   /*opacity: .8;*/
+    /*opacity: .8;*/
 }
 
 .center {
@@ -186,6 +186,7 @@ li {
     width: 33%;
     height: auto;
     padding: 10px;
+    padding-bottom: 15px;
     /*text-align: left;*/
     color: #ebebeb;
     font-size: 1.3em;
