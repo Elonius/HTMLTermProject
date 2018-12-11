@@ -10,7 +10,7 @@ body {
 }
 
 /* Header */
-header {
+#header {
     text-align: center;
     font-size: 3.5em;
     font-weight: bold;
@@ -18,6 +18,45 @@ header {
     padding-top: 30px;
     padding-bottom: 30px;
     background-color: #460080;
+    color: #ebebeb;
+    top: 0px;
+    font-family: 'Bungee', cursive;
+}
+
+#headerStars {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #F28F12;
+    color: #ebebeb;
+    top: 0px;
+    font-family: 'Bungee', cursive;
+}
+
+#headerPlanets {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #09437D;
+    color: #ebebeb;
+    top: 0px;
+    font-family: 'Bungee', cursive;
+}
+
+#headerGalaxy {
+    text-align: center;
+    font-size: 3.5em;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #B50C59;
     color: #ebebeb;
     top: 0px;
     font-family: 'Bungee', cursive;
@@ -223,8 +262,44 @@ footer {
     bottom: 0;
     width: 100%;
     height: 50px;
-    padding-top: 15px;
+    padding-top: 20px;
     background-color: #460080;
+    color: #ebebeb;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#footerGalaxy {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    background-color: #B50C59;
+    color: #ebebeb;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#footerPlanets {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    background-color: #09437D;
+    color: #ebebeb;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#footerStars {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    background-color: #F28F12;
     color: #ebebeb;
     text-align: center;
     margin-top: 100px;
