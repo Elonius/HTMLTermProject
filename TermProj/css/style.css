@@ -26,6 +26,7 @@ body {
 .icon {
     display: block;
     float: left;
+    clear: right;
 }
 
 #headerStars {
