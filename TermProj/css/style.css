@@ -23,6 +23,11 @@ body {
     font-family: 'Bungee', cursive;
 }
 
+.icon {
+    display: block;
+    float: left;
+}
+
 #headerStars {
     text-align: center;
     font-size: 3.5em;
@@ -60,6 +65,7 @@ body {
     color: #ebebeb;
     top: 0px;
     font-family: 'Bungee', cursive;
+
 }
 
 /* Navbar */
