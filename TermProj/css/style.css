@@ -69,6 +69,12 @@ body {
 
 }
 
+.spacer {
+    float: right;
+    width: 160px;
+    height: 50px;
+}
+
 /* Navbar */
 .dropbtn {
     background-color: black;
